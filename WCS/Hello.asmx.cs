@@ -18,9 +18,9 @@ namespace WCS
     {
 
         [WebMethod]
-        public string GetName(string name)
+        public string GetMessage(string name)
         {
-            return "Привет всем!";
+            return $"Hello {name}!";
         }
     }
 }
